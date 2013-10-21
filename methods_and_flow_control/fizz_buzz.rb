@@ -3,9 +3,7 @@
 #This program should output the numbers 1 through 100, however:
 #–  If evenly divisible by 3, print Fizz –  If evenly divisible by 5, print Buzz
 #–  If evenly divisible by 3 and 5, print FizzBuzz –  Otherwise, print out the number
-
-# There needs to be an array 1-100, then the method should run on the entire array. So I probably shouldn't make a class,
-# but should make a method on class array, this could also be done recursively or done in a loop.
+#fizzbuzz using a loops
 
 number = 1.0
 while number < 101
