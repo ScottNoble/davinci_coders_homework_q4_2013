@@ -7,15 +7,15 @@
 class Bottlesofbeer
   def self.drink(bottle)
     if bottle == 0
-      puts "#{bottle} bottles of beer on the wall! #{bottle} bottles of beer. Who's up for a beer run?"
+      puts "#{bottle} bottles of beer on the wall! #{bottle} bottles of beer. Who's up for a beer run?\n"
     elsif bottle == 1
-      puts "#{bottle} bottle of beer on the wall! #{bottle} bottle of beer! Take it down pass it around #{bottle-1} bottles of beer on the wall!"
+      puts "#{bottle} bottle of beer on the wall! #{bottle} bottle of beer! Take it down pass it around #{bottle-1} bottles of beer on the wall!\n"
       drink(bottle-1)
     elsif bottle == 2
-      puts "#{bottle} bottles of beer on the wall! #{bottle} bottles of beer! Take one down pass it around #{bottle-1} bottle of beer on the wall!"
+      puts "#{bottle} bottles of beer on the wall! #{bottle} bottles of beer! Take one down pass it around #{bottle-1} bottle of beer on the wall!\n"
       drink(bottle-1)
     elsif bottle > 0
-      puts "#{bottle} bottles of beer on the wall! #{bottle} bottles of beer! Take one down pass it around #{bottle-1} bottles of beer on the wall!"
+      puts "#{bottle} bottles of beer on the wall! #{bottle} bottles of beer! Take one down pass it around #{bottle-1} bottles of beer on the wall!\n"
       drink(bottle-1)
     else
       puts "Argument error, no negative bottles of beer possible"
