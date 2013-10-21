@@ -22,7 +22,5 @@ puts "That means there are:"
 puts "   #{seconds_in_hour} in an hour"
 puts "   #{seconds_in_day} in a day"
 puts "   #{seconds_in_week} in a week"
-puts "That means when you turn 20, you've been alive for #{20*seconds_in_year} seconds,"/n
-"and if you live to 100 years old you will have lived for #{100*seconds_in_year} seconds"/n
-"Make them count!"
+puts "That means when you turn 20, you've been alive for #{20*seconds_in_year} seconds,\n and if you live to 100 years old you will have lived for #{100*seconds_in_year} seconds \n Make them count!"
 
