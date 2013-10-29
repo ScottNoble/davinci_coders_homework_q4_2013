@@ -58,7 +58,7 @@ number = gets
 puts "enter a plural unit of measurement"
 unit_of_measurement = gets
 
-puts "O my #{term_of_endearment2}'s like a #{color}, #{color} #{flower}
+puts "O my #{term_of_endearment2}\'s like a #{color}, #{color} #{flower}
 That’s newly sprung in #{month};
 O my Luve's like the #{noun}
 That’s #{adjective_ending_in_ly} #{past_tense_verb} in tune.
@@ -66,9 +66,9 @@ That’s #{adjective_ending_in_ly} #{past_tense_verb} in tune.
 As #{adjective2} art thou, my #{adjective3} lass,
 So #{adjective3} in luve am I:
 And I will luve thee still, my #{noun2},
-Till a’ the #{body_of_water} gang dry:
+Till a\’ the #{body_of_water} gang dry:
 
-Till a’ the #{body_of_water} gang dry, my #{term_of_endearment1},
+Till a\’ the #{body_of_water} gang dry, my #{term_of_endearment1},
 And the #{plural_noun} melt wi’ the sun:
 I will luve thee still, my #{term_of_endearment1},
 While the #{plural_noun2} o’ life shall #{verb}.
@@ -76,4 +76,4 @@ While the #{plural_noun2} o’ life shall #{verb}.
 And fare thee well, my only #{term_of_endearment2}
 And fare thee well, a while!
 And I will come again, my #{term_of_endearment2},
-Tho’ it were #{number} #{unit_of_measurement}."
+Tho\’ it were #{number} #{unit_of_measurement}."
