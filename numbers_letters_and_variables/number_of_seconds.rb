@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+#passes all tests
 
    seconds_in_minute = 60
    minutes_in_hour = 60
