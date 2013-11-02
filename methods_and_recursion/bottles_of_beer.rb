@@ -12,31 +12,40 @@
 #  one down and pass it around, no more bottles of beer on the wall.
 #  bottles == 0
 #  "No more bottles of beer on the wall, no more bottles of beer.
-#  Go to the store and buy some more, 99 bottles of beer on the wall.
+#  Go to the store and buy some more, 99 bottles of beer on the wall."
 
 
 class Bottlesofbeer
-  def self.get_lyric(bottle)
-    if bottle == 0
-      puts "#{bottle} bottles of beer on the wall! #{bottle} bottles of beer. Who's up for a beer run?\n"
-    elsif bottle == 1
-      puts "#{bottle} bottle of beer on the wall! #{bottle} bottle of beer! Take it down pass it around #{bottle-1} bottles of beer on the wall!\n"
-      get_lyric(bottle-1)
-    elsif bottle == 2
-      puts "#{bottle} bottles of beer on the wall! #{bottle} bottles of beer! Take one down pass it around #{bottle-1} bottle of beer on the wall!\n"
-      get_lyric(bottle-1)
-    elsif bottle > 0
-      puts "#{bottle} bottles of beer on the wall! #{bottle} bottles of beer! Take one down pass it around #{bottle-1} bottles of beer on the wall!\n"
-      get_lyric(bottle-1)
+  def self.get_lyric(bottle_number)
+    if bottle_number == 0
+      puts "No more bottles of beer on the wall, no more bottles of beer!\nGo to the store and buy some more, 99 bottles of beer on the wall!"
     else
-      puts "Argument error, no negative bottles of beer possible"
+      if bottle_numer == 1
+        @bottle = "bottle"
+        @bottle2 = "bottles"
+      elsif bottle_number == 2
+        @bottle = "bottles"
+        @bottle2 = "bottle"
+      else
+        @bottle = "bottles"
+        @bottle2 = "bottles"
+      end
+      puts "#{bottle_numer} #{@bottle} of beer on the wall. #{bottle_numer} #{@bottle} of beer. Take it down pass it around #{bottle_numer-1} bottles of beer on the wall.\n"
+      get_lyric(bottle_numer-1)
+
+    #elsif bottle_numer == 2
+    #  puts "#{bottle_numer} bottles of beer on the wall. #{bottle_numer} bottles of beer. Take one down pass it around #{bottle_numer-1} bottle of beer on the wall.\n"
+    #  get_lyric(bottle_numer-1)
+    #elsif bottle_numer > 0
+    #  puts "#{bottle_numer} bottles of beer on the wall. #{bottle_numer} bottles of beer. Take one down pass it around #{bottle_numer-1} bottles of beer on the wall.\n"
+    #  get_lyric(bottle_numer-1)
+    #else
+    #  puts "Argument error, no negative bottles of beer possible"
     end
   end
 end
 
-Bottlesofbeer.drink(99)
-
-
+Bottlesofbeer.get_lyric(99)
 
 
 
