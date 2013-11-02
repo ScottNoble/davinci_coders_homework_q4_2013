@@ -19,9 +19,8 @@ array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
 
 array.each do |number|
 
-  if number % 5 == 0 && number%3 == 0
+  if number % 5 == 0 && number % 3 == 0
     newarray[number] = "FizzBuzz"
-     
   elsif
     number % 5 == 0
     newarray[number] = "Buzz"
@@ -31,8 +30,9 @@ array.each do |number|
   else
     newarray[number] = number
   end
+  puts newarray[number]
 end
-newarray
+
 
 
 
